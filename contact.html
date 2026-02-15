@@ -61,10 +61,11 @@
       </div>
       <div class="contact-form reveal-right">
         <h3>Stuur ons een bericht 🐾</h3>
-        <form action="https://formsubmit.co/info@kahudogwalk.nl" method="POST">
-          <input type="hidden" name="_subject" value="Nieuw bericht via website">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://kahudogwalk.nl">
+        <form action="https://api.thebusinessbooster.nl/contact.php" method="POST">
+          <input type="hidden" name="_to" value="info@kahudogwalk.nl">
+          <input type="hidden" name="_site" value="kahudogwalk.nl">
+          <input type="hidden" name="_honey" value="" style="display:none">
+          <input type="hidden" name="_next" value="https://kahudogwalk.nl/?bedankt=1">
           <div class="form-group">
             <label>Jouw naam</label>
             <input type="text" name="name" required placeholder="Bijv. Jan de Vries">
