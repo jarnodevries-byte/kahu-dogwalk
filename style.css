@@ -469,3 +469,39 @@ section { position: relative; z-index: 1; }
   .navbar .container { height: 70px; }
   .nav-logo span { font-size: 1.1rem; }
 }
+
+/* FAQ Section */
+.faq-item {
+  background: white;
+  padding: 24px 32px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--purple);
+}
+.faq-item:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-lg);
+  border-left-color: var(--gold);
+}
+.faq-item h3 {
+  color: var(--purple);
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.faq-item p {
+  color: var(--text);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Performance: Image lazy loading support */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+img[loading="lazy"].loaded {
+  opacity: 1;
+}
