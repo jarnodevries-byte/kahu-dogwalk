@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – KaHu Dogwalk</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://kahudogwalk.nl/wp-content/uploads/2025/04/efe39047-15b5-4301-b36d-7db261ddae6d-2-247x300.png">
+</head>
+<body>
+<div class="paw-bg"></div>
+
+<nav class="navbar scrolled" id="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <img src="https://kahudogwalk.nl/wp-content/uploads/2025/04/efe39047-15b5-4301-b36d-7db261ddae6d-2-247x300.png" alt="Logo">
+      <span>KaHu Dogwalk</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="prijslijst.html">Prijslijst</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="voorwaarden.html">Voorwaarden</a>
+      <a href="https://wa.me/31623656518" class="btn-nav" target="_blank">📱 WhatsApp</a>
+    </div>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>📬 Contact</h1>
+    <p>Vragen? Neem gerust contact met ons op. We reageren zo snel mogelijk!</p>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info-cards reveal-left">
+        <div class="contact-card">
+          <div class="contact-card-icon">📧</div>
+          <div><h4>E-mail</h4><p><a href="mailto:info@kahudogwalk.nl">info@kahudogwalk.nl</a></p></div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">📞</div>
+          <div><h4>Telefoon</h4><p><a href="tel:0623656518">06-23656518</a></p></div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">💬</div>
+          <div><h4>WhatsApp</h4><p><a href="https://wa.me/31623656518" target="_blank">Stuur een berichtje!</a></p></div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">📍</div>
+          <div><h4>Adres</h4><p>Polstraat 4, 3752CB Bunschoten</p></div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">🏢</div>
+          <div><h4>KVK</h4><p>96715642</p></div>
+        </div>
+      </div>
+      <div class="contact-form reveal-right">
+        <h3>Stuur ons een bericht 🐾</h3>
+        <form action="https://formsubmit.co/info@kahudogwalk.nl" method="POST">
+          <input type="hidden" name="_subject" value="Nieuw bericht via website">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://kahudogwalk.nl">
+          <div class="form-group">
+            <label>Jouw naam</label>
+            <input type="text" name="name" required placeholder="Bijv. Jan de Vries">
+          </div>
+          <div class="form-group">
+            <label>E-mailadres</label>
+            <input type="email" name="email" required placeholder="jan@voorbeeld.nl">
+          </div>
+          <div class="form-group">
+            <label>Telefoonnummer</label>
+            <input type="tel" name="phone" placeholder="06-12345678">
+          </div>
+          <div class="form-group">
+            <label>Waar gaat het over?</label>
+            <select name="subject">
+              <option value="Groepswandeling">Groepswandeling</option>
+              <option value="Individuele wandeling">Individuele wandeling</option>
+              <option value="Vakantieopvang">Vakantieopvang</option>
+              <option value="Overig">Overig</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Jouw bericht</label>
+            <textarea name="message" required placeholder="Vertel ons over jouw hond en wat je zoekt..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;border:none;cursor:pointer;">✉️ Verstuur bericht</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" style="margin-bottom:8px;"><img src="https://kahudogwalk.nl/wp-content/uploads/2025/04/efe39047-15b5-4301-b36d-7db261ddae6d-2-247x300.png" alt="KaHu" style="height:40px;filter:brightness(10);"><span style="color:white;">KaHu Dogwalk</span></a>
+        <p>Beschermer van iets dierbaars. Professionele hondenuitlaatservice in Bunschoten en omgeving.</p>
+      </div>
+      <div><h4>Pagina's</h4><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="prijslijst.html">Prijslijst</a></li><li><a href="contact.html">Contact</a></li><li><a href="voorwaarden.html">Voorwaarden</a></li></ul></div>
+      <div><h4>Diensten</h4><ul class="footer-links"><li><a href="prijslijst.html">Groepswandelingen</a></li><li><a href="prijslijst.html">Individueel</a></li><li><a href="prijslijst.html">Vakantieopvang</a></li></ul></div>
+      <div><h4>Contact</h4><ul class="footer-links"><li><a href="mailto:info@kahudogwalk.nl">📧 info@kahudogwalk.nl</a></li><li><a href="tel:0623656518">📞 06-23656518</a></li><li><a href="https://wa.me/31623656518" target="_blank">💬 WhatsApp</a></li><li><a>📍 Polstraat 4, Bunschoten</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 KaHu Dogwalk – KVK 96715642</span><span>Met ❤️ gemaakt voor alle viervoeters</span></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/31623656518" class="whatsapp-float" target="_blank" title="Chat op WhatsApp">💬</a>
+
+<script>
+function toggleMenu(){document.getElementById('hamburger').classList.toggle('active');document.getElementById('navLinks').classList.toggle('open');}
+document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>{document.getElementById('hamburger').classList.remove('active');document.getElementById('navLinks').classList.remove('open');}));
+const observer=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible');});},{threshold:0.1,rootMargin:'0px 0px -50px 0px'});
+document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
